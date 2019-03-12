@@ -1,0 +1,18 @@
+
+innovation之自动下载log+取常用log+简化路径+自动删除无用压缩包
+
+
+获取link 路径：
+第一种，直接输入log的cloud 链接
+第二种不支持也行：获取multi single run的manual get report中的log link
+
+下载log:
+对于非压缩包
+-》走简易流程: 如果只有startup的log， 则下载starup的log，包括egate console, informodel, bts_startup,wireshark_starup。否则下载case级别的log，包括egate console, RRC,wireshark, informodel, bts log。
+
+对于包含log.html的压缩包和不包含log.html的压缩包（cloud上这两种情况貌似都有的）
+-》解压缩并提取有用log，简化log路径，比如‘D:\8.Temp\notOnair\feature号\’；结束以后删除压缩包
+
+
+如果能支持这个功能就更好了：
+想下什么log就下什么log，可以勾选的。
