@@ -1,3 +1,3 @@
-# private_project
+# project
 
 test for first private project, congratulations to github.
